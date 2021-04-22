@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="text"> <br>
+        <p class="text-center">
+            Hörmətli qonaq, səhər yeməyi seçiminizi gecədən sifariş edin, daha sonra qeyd vərəqəsini gecə saat 03:00-a kimi
+            arxa tərəfdən qapı dəstəyindən asın. Bu sifariş yalnız bir nəfər üçün nəzərdə tutulmuşdur və ödənişlidir. Səhər
+            yeməyi xidməti saat 07:00-da başlayır. Çatdırılma vaxtını seçin:
+        </p>
+    </div>
+    
+    <form method="POST" >
+        <fieldset>
+            <legend></legend>
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px;">Sağlam Səhər Yeməyi</td>
+                    <td style="width:30%;">25 azn</td>
+                    <td></td>
+                    
+                </tr>
+               </table>
+            <input id="optionfrtyeight" type="checkbox" name="demo">
+            <label for="optionfrtyeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <!-- Purely visual doesn't have any semantic meaning -->
+                <p>Sadə qatıq</p>
+            </label>
+
+            <input id="optionfrtynine" type="checkbox" name="demo">
+            <label for="optionfrtynine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Kəsmik</p>
+            </label>
+
+            <input id="optionfifty" type="checkbox" name="demo">
+            <label for="optionfifty">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Meyvə qurusu</p>
+            </label>
+
+            <input id="optionfiftyone" type="checkbox" name="demo">
+            <label for="optionfiftyone">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Birçer myusli</p>
+            </label>
+            <input id="optionfiftytwo" type="checkbox" name="demo">
+            <label for="optionfiftytwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Yulaf peçenyesi</p>
+            </label>
+            <input id="optionfiftythree" type="checkbox" name="demo">
+            <label for="optionfiftythree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Meyvə boşqabı</p>
+            </label>
+            <input id="optionfiftyfour" type="checkbox" name="demo">
+            <label for="optionfiftyfour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çörək səbəti</p>
+            </label>
+            <input id="optionfiftyfive" type="checkbox" name="demo">
+            <label for="optionfiftyfive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çaydan və ya</p>
+            </label>
+            <input id="optionfiftysix" type="checkbox" name="demo">
+            <label for="optionfiftysix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qəhvədan</p>
+            </label>
+            <!-- <input id="optionfiftseven" type="checkbox" name="demo"> -->
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Təzə sıxılmış meyvə şirəsi (1 stəkan):</p>
+            </label>
+            <input id="optionfiftseven" type="checkbox" name="demo">
+            <label for="optionfiftseven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Portağal və ya</p>
+            </label>
+            <input id="optionfiftyeight" type="checkbox" name="demo">
+            <label for="optionfiftyeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Alma və ya</p>
+            </label>
+            <input id="optionfiftynine" type="checkbox" name="demo">
+            <label for="optionfiftynine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qreypfrut  </p>
+            </label>
+            <!-- <input id="optionfiftyfive" type="checkbox" name="demo"> -->
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Yumurta ağından omlet doğranmış əlavələrlə:</p>
+            </label>
+            <input id="optionsixty" type="checkbox" name="demo">
+            <label for="optionsixty">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Yaşıl bibər</p>
+            </label>
+            <input id="optionsixtyone" type="checkbox" name="demo">
+            <label for="optionsixtyone">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Soğan</p>
+            </label>
+            <input id="optionsixtytwo" type="checkbox" name="demo">
+            <label for="optionsixtytwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Göbələk</p>
+            </label>
+            <input id="optionsixtythree" type="checkbox" name="demo">
+            <label for="optionsixtythree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pomidor</p>
+            </label>
+            <input id="optionsixtyfour" type="checkbox" name="demo">
+            <label for="optionsixtyfour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pendir</p>
+            </label>
+            <input id="optionsixtyfive" type="checkbox" name="demo">
+            <label for="optionsixtyfive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Göyərti və ya</p>
+            </label>
+            <input id="optionsixtysix" type="checkbox" name="demo">
+            <label for="optionsixtysix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>2 ədəd qaynadılmış yumurta</p>
+            </label>
+
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px;">Ənənəvi Milli Səhər Yeməyi </td>
+                    <td style="width:30%;">30 azn</td>
+                    <td></td>
+                    
+                </tr>
+               </table>
+            <input id="optionsixtyseven" type="checkbox" name="demo">
+            <label for="optionsixtyseven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <!-- Purely visual doesn't have any semantic meaning -->
+                <p>Pətək balı</p>
+            </label>
+
+            <input id="optionsixtyeight" type="checkbox" name="demo">
+            <label for="optionsixtyeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Zeytun</p>
+            </label>
+
+            <input id="optionsisxtynine" type="checkbox" name="demo">
+            <label for="optionsixtynine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Yerli pendir</p>
+            </label>
+
+            <input id="optionseventy" type="checkbox" name="demo">
+            <label for="optionseventy">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Tərəvəz çeşidləri</p>
+            </label>
+            <input id="optionseventyone" type="checkbox" name="demo">
+            <label for="optionseventyone">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çörək səbəti </p>
+            </label>
+            <input id="optionseventytwo" type="checkbox" name="demo">
+            <label for="optionseventytwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çaydan və ya</p>
+            </label>
+            <input id="optionseventythree" type="checkbox" name="demo">
+            <label for="optionseventythree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qəhvədan </p>
+            </label>
+            <input id="optionseventyfour" type="checkbox" name="demo">
+            <label for="optionseventyfour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çiyələk mürəbbəsi </p>
+            </label>
+            <!-- <input id="optionseventyfour" type="checkbox" name="demo"> -->
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Seçiminizə uyğun meyvə şirəsi (1 stəkan): </p>
+            </label>
+            <input id="optionseventyfive" type="checkbox" name="demo">
+            <label for="optionseventyfive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Portağal və ya </p>
+            </label>
+            <input id="optionseventysix" type="checkbox" name="demo">
+            <label for="optionseventysix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Alma və ya </p>
+            </label>
+            <input id="optionseventyseven" type="checkbox" name="demo">
+            <label for="optionseventyseven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Albalı </p>
+            </label>
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p> Seçiminizə uyğun 2 ədəd yumurta: </p>
+            </label>
+            <input id="optionseventyeight" type="checkbox" name="demo">
+            <label for="optionseventyeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pomidor-yumurta və ya </p>
+            </label>
+            <input id="optionseventynine" type="checkbox" name="demo">
+            <label for="optionseventynine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qaynadılmış və ya </p>
+            </label>
+            <input id="optioneighty" type="checkbox" name="demo">
+            <label for="optioneighty">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qayğanaq </p>
+            </label>
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p> və ya seçiminizə uyğun omlet çeşidləri xırda doğranmış əlavələrlə: </p>
+            </label>
+            <input id="optioneightyone" type="checkbox" name="demo">
+            <label for="optioneightyone">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pomidor </p>
+            </label>
+            <input id="optioneightytwo" type="checkbox" name="demo">
+            <label for="optioneightytwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Göbələk</p>
+            </label>
+            <input id="optioneightythree" type="checkbox" name="demo">
+            <label for="optioneightythree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Yaşıl bibər </p>
+            </label>
+            <input id="optioneightyfour" type="checkbox" name="demo">
+            <label for="optioneightyfour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Sosis</p>
+            </label>
+            <input id="optioneightyfive" type="checkbox" name="demo">
+            <label for="optioneightyfive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pendir </p>
+            </label>
+            <input id="optioneightysix" type="checkbox" name="demo">
+            <label for="optioneightysix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Göyərti </p>
+            </label>
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px;">İngilissayağı Səhər Yeməyi </td>
+                    <td style="width:30%;">35 azn</td>
+                    <td></td>
+                    
+                </tr>
+               </table>
+            <input id="optioneightyseven" type="checkbox" name="demo">
+            <label for="optioneightyseven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <!-- Purely visual doesn't have any semantic meaning -->
+                <p>Meyvəli yoqurt</p>
+            </label>
+
+            <input id="optioneightyeight" type="checkbox" name="demo">
+            <label for="optioneightyeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qatıq</p>
+            </label>
+            
+            <input id="optioneightynine" type="checkbox" name="demo">
+            <label for="optioneightynine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Rice crispy</p>
+            </label>
+            <input id="optionninety" type="checkbox" name="demo">
+            <label for="optionninety">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Ağ gilas mürəbbəsi</p>
+            </label>
+            <input id="optionninetyone" type="checkbox" name="demo">
+            <label for="optionninetyone">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Meyvə boşqabı</p>
+            </label>
+            <input id="optionninetytwo" type="checkbox" name="demo">
+            <label for="optionninetytwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çaydan və ya</p>
+            </label>
+            <input id="optionninetythree" type="checkbox" name="demo">
+            <label for="optionninetythree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Corn flakes</p>
+            </label>
+            <input id="optionninetyfour" type="checkbox" name="demo">
+            <label for="optionninetyfour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Choco pops</p>
+            </label>
+            <input id="optionninetyfive" type="checkbox" name="demo">
+            <label for="optionninetyfive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>İsti süd</p>
+            </label>
+            <input id="optionninetysix" type="checkbox" name="demo">
+            <label for="optionninetysix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Kolbasa</p>
+            </label>
+            <input id="optionninetyseven" type="checkbox" name="demo">
+            <label for="optionninetyseven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Təzə şirniyyatlar </p>
+            </label>
+            <input id="optionninetyeight" type="checkbox" name="demo">
+            <label for="optionninetyeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qəhvədan</p>
+            </label>
+            <input id="optionninetynine" type="checkbox" name="demo">
+            <label for="optionninetynine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Soyuq süd</p>
+            </label>
+            <input id="optionhundred" type="checkbox" name="demo">
+            <label for="optionhundred">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pətək balı</p>
+            </label>
+            <input id="optionhundredone" type="checkbox" name="demo">
+            <label for="optionhundredone">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çiyələk mürəbbəsi</p>
+            </label>
+            <input id="optionhundredtwo" type="checkbox" name="demo">
+            <label for="optionhundredtwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pendir</p>
+            </label>
+            <input id="optionhundredthree" type="checkbox" name="demo">
+            <label for="optionhundredthree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Çörək səbəti</p>
+            </label>
+
+            <!-- <input id="optionhundredthree" type="checkbox" name="demo"> -->
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Seçiminizə uyğun meyvə şirəsi (1 stəkan): </p>
+            </label>
+            <input id="optionhundredfour" type="checkbox" name="demo">
+            <label for="optionhundredfour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Portağal və ya</p>
+            </label>
+            <input id="optionhundredfive" type="checkbox" name="demo">
+            <label for="optionhundredfive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Alma və ya</p>
+            </label>
+            <input id="optionhundredsix" type="checkbox" name="demo">
+            <label for="optionhundredsix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Albalı  </p>
+            </label>
+            <!-- <input id="optionhundredfive" type="checkbox" name="demo"> -->
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Seçiminizə uyğun 2 ədəd yumurta: </p>
+            </label>
+            <input id="optionhundredseven" type="checkbox" name="demo">
+            <label for="optionhundredseven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pomidor-yumurta və ya  </p>
+            </label>
+            <input id="optionhundredeight" type="checkbox" name="demo">
+            <label for="optionhundredeight">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qaynadılmış və ya</p>
+            </label>
+            <input id="optionhundrednine" type="checkbox" name="demo">
+            <label for="optionhundrednine">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Qayğanaq</p>
+            </label>
+            <label>
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Omlet çeşidləri xırda doğranmış əlavələrlə: </p>
+            </label>
+            <input id="optionhundredten" type="checkbox" name="demo">
+            <label for="optionhundredten">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pomidor </p>
+            </label>
+            <input id="optionhundredeleven" type="checkbox" name="demo">
+            <label for="optionhundredeleven">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Göbələk</p>
+            </label>
+            <input id="optionhundredtw" type="checkbox" name="demo">
+            <label for="optionhundredtw">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Yaşıl bibər</p>
+            </label>
+            <input id="optionhundredthrtn" type="checkbox" name="demo">
+            <label for="optionhundredthrtn">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Sosis</p>
+            </label>
+            <input id="optionhundredfourtn" type="checkbox" name="demo">
+            <label for="optionhundredthrtn">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Pendir</p>
+            </label>
+            <input id="optionhundredfivetn" type="checkbox" name="demo">
+            <label for="optionhundredfivetn">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Göyərti</p>
+            </label>
+        </fieldset>
+      <a href="#popup1" class="popup_">Sifarişi təsdiqlə</a>
+      <a href="index.html" class="next_link">Geri</a>
+    </form>    
+    <div id="popup1" class="overlay" >
+        <div class="popup" style="width:100%;">
+            <h2>Sifarişinizi təsdiqləyin</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="adSoyad">Ad və Soyad</label>
+                        <input type="text" class="form-control" id="adSoyad">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="OtaqNomresi">Otaq Nömrəsi</label>
+                        <input type="number" class="form-control" id="OtaqNomresi">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="miqdar">Miqdar</label>
+                      <input type="number" class="form-control" id="miqdar">
+                    </div>
+                    <div class="form-group">
+                      <label for="Choosetime">Vaxtı təyin edin</label>
+                      <input type="datetime-local" class="form-control" id="Choosetime">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sifariş edin</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>

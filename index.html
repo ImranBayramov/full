@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="text"> <br>
+        <p class="text-center">
+            Hörmətli qonaq, səhər yeməyi seçiminizi gecədən sifariş edin, daha sonra qeyd vərəqəsini gecə saat 03:00-a kimi
+            arxa tərəfdən qapı dəstəyindən asın. Bu sifariş yalnız bir nəfər üçün nəzərdə tutulmuşdur və ödənişlidir. Səhər
+            yeməyi xidməti saat 07:00-da başlayır. Çatdırılma vaxtını seçin:
+        </p>
+    </div>
+    
+    <form method="POST" >
+        <fieldset>
+            <legend>A La Carte</legend>
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px;">Seçiminizə uyğun taxıl məhsullarından biri:</td>
+                    <td style="width:30%;">8 azn</td>
+                    <td></td>
+                    
+                </tr>
+               </table>
+            <input id="optionOne" type="checkbox" name="demo">
+            <label for="optionOne">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <!-- Purely visual doesn't have any semantic meaning -->
+                <p>Rice crispy və ya</p>
+            </label>
+
+            <input id="optionTwo" type="checkbox" name="demo">
+            <label for="optionTwo">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Corn flakes və ya</p>
+            </label>
+
+            <input id="optionThree" type="checkbox" name="demo">
+            <label for="optionThree">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Choco pops</p>
+            </label>
+
+            <input id="optionFour" type="checkbox" name="demo">
+            <label for="optionFour">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>İsti süd - 150 ml</p>
+            </label>
+            <input id="optionFive" type="checkbox" name="demo">
+            <label for="optionFive">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Soyuq süd - 150 ml</p>
+            </label>
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px;">Seçiminizə uyğun sıyıqlardan biri: </td>
+                    <td style="width:30%;">8 azn</td>
+                    <td></td>
+                    
+                </tr>
+               </table>
+            <input id="optionsix" type="checkbox" name="demo">
+            <label for="optionsix">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <!-- Purely visual doesn't have any semantic meaning -->
+                <p>Yulaf və ya</p>
+            </label>
+
+            <input id="optionS" type="checkbox" name="demo">
+            <label for="optionS">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Düyü və ya</p>
+            </label>
+
+            <input id="optionE" type="checkbox" name="demo">
+            <label for="optionE">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>İrmik</p><br> <br>
+                <p>Hazırlanır:</p>
+            </label>
+
+            <input id="optionN" type="checkbox" name="demo">
+            <label for="optionN">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Süd və ya</p>
+            </label>
+            <input id="optionTen" type="checkbox" name="demo">
+            <label for="optionTen">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Su ilə</p>
+            </label>
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px;">Evsayağı qatıq:  </td>
+                    <td style="width:30%;">6 azn</td>
+                    <td></td>
+                    
+                </tr>
+               </table>
+            <input id="optionEl" type="checkbox" name="demo">
+            <label for="optionEl">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <!-- Purely visual doesn't have any semantic meaning -->
+                <p>Meyvəli və ya </p>
+            </label>
+
+            <input id="optionTw" type="checkbox" name="demo">
+            <label for="optionTw">
+                <span class="customCheckbox" aria-hidden="true"></span>
+                <p>Sadə</p>
+            </label>
+            
+            <table class="table table-borderless" style="width: 100%;">
+                <!-- <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr> -->
+                <tr>
+                    <td style="font-size:15px; width:100%;">
+                        <input id="optionThn" type="checkbox" name="demo">
+                        <label for="optionThn" >
+                            <span class="customCheckbox" aria-hidden="true" style="position:absolute; margin-left:-10px;"></span>
+                            <p style="margin-left:17px;">Təzə şirniyyat və çörək səbəti </p>
+                        </label>
+                    </td>
+                    <td style="position:absolute;">6 azn</td>
+                    <td></td>
+                </tr>
+               </table>
+               <input id="optionFourtn" type="checkbox" name="demo" >
+                <label for="optionFourtn" >
+                    <span class="customCheckbox" aria-hidden="true" style="position: absolute;"></span>
+                    <p style="margin-left:27px;">Şokaladlı və sadə kruasan, küncütlu simit, pendirli və cemli poaça, qarışıq Daniş şirniyyatı </p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun 2 ədəd yumurta:</td>
+                        <td style="width:30%;">10 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionFtn" type="checkbox" name="demo">
+                <label for="optionFtn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qaynadılmış və ya  </p>
+                </label>
+    
+                <input id="optionSixtn" type="checkbox" name="demo">
+                <label for="optionSixtn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Poşe yumurta və ya</p>
+                </label>
+                <input id="optionStn" type="checkbox" name="demo">
+                <label for="optionStn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Qayğanaq</p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun 2 ədəd yumurta:</td>
+                        <td style="width:30%;">10 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionStn" type="checkbox" name="demo">
+                <label for="optionStn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qayğanaq və ya </p>
+                </label>
+    
+                <input id="optionSvtn" type="checkbox" name="demo">
+                <label for="optionSvtn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Omlet</p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Omlet çeşidləri xırda doğranmış əlavələrlə:</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionEghtn" type="checkbox" name="demo">
+                <label for="optionEghtn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Pomidor </p>
+                </label>
+    
+                <input id="optionNitn" type="checkbox" name="demo">
+                <label for="optionNitn">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Göbələk</p>
+                </label>
+                <input id="optiontwty" type="checkbox" name="demo">
+                <label for="optiontwty">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Yaşıl bibər </p>
+                </label>
+    
+                <input id="optionTwone" type="checkbox" name="demo">
+                <label for="optionTwone">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Sosis</p>
+                </label>
+                <input id="optionTwtwo" type="checkbox" name="demo">
+                <label for="optionTwtwo">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Soğan</p>
+                </label>
+                <input id="optionTwthree" type="checkbox" name="demo">
+                <label for="optionTwthree">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Pendir</p>
+                </label>
+                <input id="optionTwfour" type="checkbox" name="demo">
+                <label for="optionTwfour">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Göyərti</p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Toyuq sosisləri: </td>
+                        <td style="width:30%;">10 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optiontwfive" type="checkbox" name="demo">
+                <label for="optiontwfive">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qrildə və ya</p>
+                </label>
+    
+                <input id="optionTwsix" type="checkbox" name="demo">
+                <label for="optionTwsix">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Qaynadılmış və ya</p>
+                </label>
+                <input id="optionTwseven" type="checkbox" name="demo">
+                <label for="optionTwseven">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Qızardılmış</p>
+                </label>
+                <!-- <input id="optionTwo" type="checkbox" name="demo"> -->
+                <label>
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <p>Xardal, mayonez və ketçup ilə servis olunur.</p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun: </td>
+                        <td style="width:30%;">12 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optiontweight" type="checkbox" name="demo">
+                <label for="optiontweight">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Pankek və ya</p>
+                </label>
+                <input id="optiontwnine" type="checkbox" name="demo">
+                <label for="optiontwnine">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Krepe</p>
+                </label>
+                <!-- <input id="optionOne" type="checkbox" name="demo"> -->
+                <label>
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Servis olunur:</p>
+                </label>
+                <input id="optionthty" type="checkbox" name="demo">
+                <label for="optionthty">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Mürəbbə</p>
+                </label>
+                <input id="optionthone" type="checkbox" name="demo">
+                <label for="optionthone">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qatılaşdırılmış süd </p>
+                </label>
+                <input id="optionththree" type="checkbox" name="demo">
+                <label for="optionththree">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Şokalad sousu </p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Evsayağı vafli: </td>
+                        <td style="width:30%;">12 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionthfour" type="checkbox" name="demo">
+                <label for="optionthfour">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Mürəbbə</p>
+                </label>
+                <input id="optionthfive" type="checkbox" name="demo">
+                <label for="optionthfive">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qatılaşdırılmış süd </p>
+                </label>
+                 <input id="optionthsix" type="checkbox" name="demo">
+                <label for="optionthsix">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Şokalad sousu</p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun isti içkilər:</td>
+                        <td style="width:30%;">10 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionthseven" type="checkbox" name="demo">
+                <label for="optionthseven">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Çaydan və ya</p>
+                </label>
+                <input id="optiontheight" type="checkbox" name="demo">
+                <label for="optiontheight">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qəhvədan </p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun meyvə şirəsi (1 stəkan):</td>
+                        <td style="width:30%;">4 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionthnine" type="checkbox" name="demo">
+                <label for="optionthnine">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Portağal və ya</p>
+                </label>
+                <input id="optionfourty" type="checkbox" name="demo">
+                <label for="optionfourty">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Alma və ya </p>
+                </label>
+                <input id="optionfrtyone" type="checkbox" name="demo">
+                <label for="optionfrtyone">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Albalı </p>
+                </label>
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun meyvə şirəsi (1 stəkan):</td>
+                        <td style="width:30%;">4 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionfrtytwo" type="checkbox" name="demo">
+                <label for="optionfrtytwo">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Portağal və ya</p>
+                </label>
+                <input id="optionfrtythree" type="checkbox" name="demo">
+                <label for="optionfrtythree">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Alma və ya </p>
+                </label>
+                <input id="optionfrtyfour" type="checkbox" name="demo">
+                <label for="optionfrtyfour">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Albalı </p>
+                </label>
+
+                <table class="table table-borderless" style="width: 100%;">
+                    <!-- <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr> -->
+                    <tr>
+                        <td style="font-size:15px;">Seçiminizə uyğun təzə sıxılmış meyvə şirəsi (1 stəkan</td>
+                        <td style="width:30%;">4 azn</td>
+                        <td></td>
+                    </tr>
+                   </table>
+                <input id="optionfrtyfive" type="checkbox" name="demo">
+                <label for="optionfrtyfive">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Portağal və ya</p>
+                </label>
+                <input id="optionfrtysix" type="checkbox" name="demo">
+                <label for="optionfrtysix">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Qreypfrut </p>
+                </label>
+                <input id="optionfrtyseven" type="checkbox" name="demo">
+                <label for="optionfrtyseven">
+                    <span class="customCheckbox" aria-hidden="true"></span>
+                    <!-- Purely visual doesn't have any semantic meaning -->
+                    <p>Alma 6 AZN </p>
+                </label>
+        </fieldset>
+      <a href="#popup1" class="popup_">Sifarişi təsdiqlə</a>
+      <a href="next.html" class="next_link">Növbəti</a>
+    </form>    
+    <div id="popup1" class="overlay" >
+        <div class="popup" style="width:100%;">
+            <h2>Sifarişinizi təsdiqləyin</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <form>
+                    <div class="form-row">
+                      <div class="form-group col-md-6">
+                        <label for="adSoyad">Ad və Soyad</label>
+                        <input type="text" class="form-control" id="adSoyad">
+                      </div>
+                      <div class="form-group col-md-6">
+                        <label for="OtaqNomresi">Otaq Nömrəsi</label>
+                        <input type="number" class="form-control" id="OtaqNomresi">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="miqdar">Miqdar</label>
+                      <input type="number" class="form-control" id="miqdar">
+                    </div>
+                    <div class="form-group">
+                      <label for="Choosetime">Vaxtı təyin edin</label>
+                      <input type="datetime-local" class="form-control" id="Choosetime">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Sifariş edin</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+</body>
+
+</html>
